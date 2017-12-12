@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=HashPass
+GenericName=Password Hasher
+Comment=A simple Password Hasher build with Qt
+TryExec=hashpass
+Exec=hashpass %u
+Icon=lock
+Categories=Development;Internet;
+Terminal=false
