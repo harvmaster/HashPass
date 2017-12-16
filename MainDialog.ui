@@ -30,8 +30,8 @@
       <string/>
      </property>
      <property name="icon">
-      <iconset>
-       <normaloff>../../../___DO NOT DELETE___/Users/Administrator/Downloads/HashPassLock.png</normaloff>../../../___DO NOT DELETE___/Users/Administrator/Downloads/HashPassLock.png</iconset>
+      <iconset resource="resources.qrc">
+       <normaloff>:/HashPass.png</normaloff>:/HashPass.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -89,7 +89,9 @@
   </layout>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>buttonBox</sender>

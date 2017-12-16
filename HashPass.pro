@@ -11,6 +11,9 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = hashpass
 TEMPLATE = app
 
+win32 {
+    CONFIG += static
+}
 
 SOURCES += main.cpp\
         MainDialog.cpp
@@ -28,3 +31,6 @@ desktop.path = /usr/share/applications/
 desktop.files += hashpass.desktop
 
 INSTALLS += target desktop
+
+RESOURCES += \
+    resources.qrc
